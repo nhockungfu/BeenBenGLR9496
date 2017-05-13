@@ -14,11 +14,17 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 import java.util.ArrayList;
 
+import doan.sayphu.transformations.BlurTransformation;
+
 /**
  * Created by BEN on 22/04/2017.
  */
 
 public class Adapter_photo extends ArrayAdapter<Model_images> {
+
+
+
+
 
     Context context;
     ViewHolder viewHolder;
